@@ -27,15 +27,15 @@ namespace GradeBook.GradeBooks
                 return ('A');
             }
 
-            else if (studentGrades[rankingThreshold - 2] <= averageGrade)
+            else if (studentGrades[(rankingThreshold*2) - 1] <= averageGrade)
             {
                 return ('B');
             }
-            else if (studentGrades[rankingThreshold - 3] <= averageGrade)
+            else if (studentGrades[(rankingThreshold*3) - 1] <= averageGrade)
             {
                 return ('C');
             }
-            else if (studentGrades[rankingThreshold - 4] <= averageGrade)
+            else if (studentGrades[(rankingThreshold*4) - 1] <= averageGrade)
             {
                 return ('D');
             }
